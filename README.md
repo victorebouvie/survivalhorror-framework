@@ -2,7 +2,6 @@
 
 ![Roblox](https://img.shields.io/badge/Platform-Roblox-red?style=for-the-badge&logo=roblox)
 ![Language](https://img.shields.io/badge/Language-Luau-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 A modular and lightweight first-person equipment framework for survival horror and FPS games built on Roblox. This system handles viewmodels, item equipping, and input handling with a clean, extensible, and easy-to-configure architecture.
 
