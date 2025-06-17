@@ -62,14 +62,17 @@ function ItemController:equipItem(itemName)
 end
 
 function ItemController:unequipHand(hand)
-	if self.equippedHands[hand] then
+	if not self.equippedHands[hand] then return end
+	
+	local isTwoHanded = self.equippedHands.Left and (self.equippedHands.Left == self.equippedHands.Right)
+	
+	if isTwoHanded then
+		self.viewModelController:destroyHandViewModel("Right")
+		self.equippedHands.Left = nil
+		self.equippedHands.Right = nil
+	else
 		self.viewModelController:destroyHandViewModel(hand)
-		
-		if self.equippedHands.Left == self.equippedHands.Right then
-			self.equippedHands.Left, self.equippedHands.Right = nil, nil
-		else
-			self.equippedHands[hand] = nil
-		end
+		self.equippedHands[hand] = nil
 	end
 end
 
