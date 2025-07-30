@@ -7,7 +7,7 @@ A modular and lightweight first-person equipment framework for survival horror a
 
 ---
 
-![placeholder_gif](https://github.com/victorebouvie/survivalhorror-framework/blob/main/ProjectdemoGIF.gif?raw=true)
+![Preview](https://github.com/victorebouvie/survivalhorror-framework/blob/main/ProjectdemoGIF.gif?raw=true)
 
 ---
 
