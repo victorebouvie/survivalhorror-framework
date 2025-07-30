@@ -1,4 +1,4 @@
-# Roblox Survival Horror Framework
+# Roblox Survival Horror Framework (Lua)
 
 ![Roblox](https://img.shields.io/badge/Platform-Roblox-red?style=for-the-badge&logo=roblox)
 ![Language](https://img.shields.io/badge/Language-Luau-blue?style=for-the-badge)
